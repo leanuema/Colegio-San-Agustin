@@ -22,8 +22,9 @@ public class ProfesorSecundaria {
         legajo = null;
     }
 
-    public ProfesorSecundaria(String nombre) {
+    public ProfesorSecundaria(String nombre, String apellido) {
         this.nombre = nombre;
+        this.apellido = apellido;
     }
 
     public ProfesorSecundaria(Integer dni) {
