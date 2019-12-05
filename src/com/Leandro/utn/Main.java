@@ -7,7 +7,7 @@ public class Main {
         ProfesorSecundaria lengua = new ProfesorSecundaria("Alejandro", 123);
         ProfesorSecundaria lidia = new ProfesorSecundaria("lisi", "antonia");
 
-        System.out.println(matematica.toString());
+
 
         String nombreDelProfesor = "Pepe";
         Integer dniDelProfesor = 312312;
@@ -16,6 +16,8 @@ public class Main {
         matematica.setDni(dniDelProfesor);
 
         System.out.println(matematica.toString());
+
+        System.out.println(lengua);
 
 
 
